@@ -1,0 +1,9 @@
+<div class="collapse navbar-collapse " id="navbarSupportedContent">
+  <ul class="navbar-nav ml-auto active">
+    <li class="nav-item active" *ngFor="let obj of menuItemsChild">
+      <a class="nav-link text-uppercase active" (click)="menuClicked(obj)" href="javascript:void(0)">{{obj}} <span
+          class="sr-only">(current)</span></a>
+    </li>
+
+  </ul>
+</div>
