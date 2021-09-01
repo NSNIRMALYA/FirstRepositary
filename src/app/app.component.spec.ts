@@ -30,7 +30,7 @@ describe('AppComponent', () => {
   it(`should not have as title 'MyApp'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).not.toEqual('STUDENT  PROJECT');
+    expect(app.title).not.toEqual('STUDENT PROJECT');
   });
 
   it(`mY NUMBER SHOULD BE INITIALISED WITH 7`, () => {
